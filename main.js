@@ -12,7 +12,11 @@ function create_main_window() {
         }
     })
 
+    // load the content of main_window
     main_window.loadFile('app/html/main_window.html')
+
+    // open developer tools on start
+    main_window.webContents.openDevTools()
 }
 
 // create the main_window when app is ready
