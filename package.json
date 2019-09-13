@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/amirashabani/Boostan/issues"
   },
-  "homepage": "https://github.com/amirashabani/Boostan#readme"
+  "homepage": "https://github.com/amirashabani/Boostan#readme",
+  "devDependencies": {
+    "electron": "^6.0.9"
+  }
 }
