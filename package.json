@@ -1,0 +1,19 @@
+{
+  "name": "boostan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirashabani/Boostan.git"
+  },
+  "author": "Amir A. Shabani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amirashabani/Boostan/issues"
+  },
+  "homepage": "https://github.com/amirashabani/Boostan#readme"
+}
