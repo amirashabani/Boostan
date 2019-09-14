@@ -1,4 +1,4 @@
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, shell} = require('electron')
 
 // the first window that opens up
 let main_window
@@ -25,6 +25,12 @@ function create_main_window() {
 
     // hide menubar
     main_window.setMenuBarVisibility(false)
+
+    // open links (with target=_blank) in default browser
+    main_window.webContents.on('new-window', (e, url) => {
+        e.preventDefault()
+        shell.openExternal(url)
+    })
 }
 
 // create the main_window when app is ready
