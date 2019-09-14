@@ -17,6 +17,11 @@ function create_main_window() {
 
     // open developer tools on start
     main_window.webContents.openDevTools()
+
+    // dereference the main_window object when it's closed
+    main_window.on('closed', () => {
+        main_window = null
+    })
 }
 
 // create the main_window when app is ready
