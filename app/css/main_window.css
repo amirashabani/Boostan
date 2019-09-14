@@ -1,9 +1,10 @@
 .container {
     direction: rtl;
-    font-family: 'Shabnam'
+    font-family: 'Shabnam';
+    padding: 30px 0px 0px 0px;
 }
 
-.introduction p {
+.introduction {
     text-align: center;
 }
 
