@@ -22,6 +22,9 @@ function create_main_window() {
     main_window.on('closed', () => {
         main_window = null
     })
+
+    // hide menubar
+    main_window.setMenuBarVisibility(false)
 }
 
 // create the main_window when app is ready
