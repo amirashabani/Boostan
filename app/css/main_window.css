@@ -1,3 +1,14 @@
 .container {
     direction: rtl;
+    font-family: 'Shabnam'
+}
+
+@font-face {
+    font-family: 'Shabnam';
+    src: url('../font/shabnam/Shabnam.eot');
+    src: url('../font/shabnam/Shabnam.eot#iefix') format('Shabnam-opetype'),
+         url('../font/shabnam/Shabnam.woff') format('woff'),
+         url('../font/shabnam/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
