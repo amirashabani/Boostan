@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/amirashabani/Boostan#readme",
   "devDependencies": {
-    "electron": "^6.0.9"
+    "electron": "^9.4.0"
   }
 }
